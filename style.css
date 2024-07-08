@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", serif;
+}
+
+main{
+    width: 1320px;
+    margin: auto;
+}
+.banar{
+    width: 1320px;
+    height: 600px;
+    margin-top: 50px;
+    background-image:linear-gradient(#070211,#07021100), url('./images/Banner\ Image.png');
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banar_content{
+    width: 632px;
+    height: 246px;
+    color: white;
+    text-align: center;
+}
+.banar_content>p{
+    font-size: 32px;
+}
+.banar_content>h1{
+    margin-top: 16px;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+/* section discount */
+.discount{
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discount_box{
+    width: 802.9px;
+    height: 806px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.discount_box>h1{
+    color: #FF0000;
+    font-size: 72px;
+    font-family: "Inter", sans-serif;
+}
+.discount_box>.text{
+    width: 450px;
+    height: 103px;
+    text-align: center;
+
+}
+.text>h3{
+    color: #FF0000;
+    font-size: 24px;
+    font-weight:500;
+    font-family: "Inter", sans-serif;
+}
+.text>h2{
+    color: #070211;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+}
+.discount_img{
+    width: 802.9px;
+    height: 500px;
+    background-image: url('./images/New\ Year\ Photo.png');
+}
+
+/* section welcome messame */
+.welcome{
+    margin-top: 120px;
+    width: 100%;
+    height: 600px;
+    background-image:linear-gradient(to right,#070211,#07021100), url('./images/Vectorrr.png');
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.welcome_box{
+    width: 1100px;
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.welcome_message{
+    width: 700px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: start;
+    row-gap: 24px;
+}
+.welcome_message>h2{
+    width: 642px;
+    color: white;
+    font-size: 64px;
+}
+.welcome_message>p{
+    color: #ffffff80;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+.welcome_message>.p{
+    margin-top: 32px;
+}
+.welcome_message>p>a{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
+.welcome_img{
+    width: 319.83px;
+    height: 464.66px;
+    background-image: url('./images/Group\ 70.png');
+}
+
+/* join section */
+
+.join{
+    margin-top: 120px;
+    width: 100%;
+    height: 482px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(255, 0, 0, 10%),#fff);
+    border-radius: 16px;
+}
+.join_box{
+    width: 549px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 48px;
+    align-items: center;
+}
+.join_text{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    line-height: 1.5;
+}
+.join_span{
+    color: #FF0000;
+    font-family: "Inter", sans-serif;
+}
+.center{
+    text-align: center;
+}
+.join_btn{
+    padding: 15px 30px;
+    background-color: #FF0000;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    border: none;
+    border-radius: 8px;
+}
+/* section coming */
+.coming{
+    margin-top: 120px;
+    width: 100%;
+    height: 463px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.coming>.coming_item1{
+    width: 393px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+}
+.coming_new_red{
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    color: #FF0000;
+    font-weight: 500;
+}
+.coming_soon{
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    font-family: "Merriweather", serif;
+    margin-bottom: 30px;
+}
+.coming_text{
+    color: #070211;
+    font-size: 20px;
+    font-weight: 500;
+}
+.coming_item2{
+    width: 463px;
+    height: 463px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coming_item2>div{
+    width: 100%;
+    height: 100%;
+    background-color: #FF0000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coming_item2>div>div{
+    width: 92%;
+    height: 92%;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coming>.coming_item3{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.c_t_1{
+    margin-top: 35px;
+    width: 278px;
+    height: 170px;
+}
+.c_t_1_h{
+    color: #FF0000;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+}
+.c_t_1_p{
+    color: #070211;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+/* section sale */
+.sale{
+    margin-top: 120px;
+    width: 100%;
+    height: 986.07px;
+}
